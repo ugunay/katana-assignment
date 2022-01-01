@@ -40,14 +40,14 @@ DB_PORT_TEST=5432
 Note that these credentials will be used by Sequelize under config/config.js.
 
 ### Development 
-
+```
 1. Create the database for the development environment if it does not exist
 2. Run the commands below to sync & seed the database:
    npm run sync
    npm run seed
 3. npm run dev
    If no environment variable is set for PORT, the application will listen to port 3000 by default.
-
+```
 ### Endpoints
    We have three endpoints for this application. Try them with Postman.
    ```
