@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2018",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "plugins": [
+      {
+        "transform": "ts-auto-mock/transformer",
+      "cacheBetweenTests": false
+      }
+    ]
+  },
+  "include": ["src/**/*"]
+}
