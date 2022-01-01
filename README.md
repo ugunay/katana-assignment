@@ -50,6 +50,7 @@ Note that these credentials will be used by Sequelize under config/config.js.
 
 ### Endpoints
    We have three endpoints for this application. Try them with Postman.
+   ```
    1. Create deck
       POST /api/deck
       Sample: http://localhost:3000/api/deck
@@ -65,14 +66,14 @@ Note that these credentials will be used by Sequelize under config/config.js.
    3. Draw deck
       PUT /api/deck/{deckId}/draw/?count={COUNT}
       Sample: http://localhost:3000/api/deck/4c5a93d1-ea04-4726-bb8d-87241396a2fc/draw/?count=3
-
+```
 
 ### Testing
-
+```
 1. npm run test
 2. If you have some tests failed, you should seed the database once with the command below :
    npm run seed-test
-
+```
 ## Built With
 
 - Node.js
