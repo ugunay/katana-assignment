@@ -7,7 +7,7 @@ A simple API to handle decks and cards to be used in card games.
 Clone the project to your local machine
 
 ```
-git clone https://github.com/ugunay/katana.git
+git clone https://github.com/ugunay/katana-assignment.git
 
 npm install
 
