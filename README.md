@@ -18,7 +18,7 @@ npm install
 Create .env file under the root directory and provide the Postgresql connection details. 
 For each different runtime environment (development, test, production), provide/create different databases.
 A sample file can be like this:
-
+```
 DB_USER=ufuk
 DB_PASSWORD=changeMe
 DB_NAME=katana_db
@@ -36,7 +36,7 @@ DB_PASSWORD_TEST=changeMe
 DB_NAME_TEST=katana_db_production
 DB_HOST_TEST=localhost
 DB_PORT_TEST=5432
-
+```
 Note that these credentials will be used by Sequelize under config/config.js.
 
 ### Development 
